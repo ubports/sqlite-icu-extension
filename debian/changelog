@@ -1,0 +1,5 @@
+sqlite-icu-extension (3.23.1~0ubports1) xenial; urgency=medium
+
+  * Initial release.
+
+ -- Alberto Mardegan <mardy@users.sourceforge.net>  Tue, 16 Oct 2018 23:06:42 +0300

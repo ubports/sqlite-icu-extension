@@ -1,0 +1,20 @@
+Source: sqlite-icu-extension
+Section: libs
+Priority: optional
+Maintainer: Alberto Mardegan <mardy@users.sourceforge.net>
+Build-Depends: debhelper (>= 9),
+               pkg-config,
+               libicu-dev,
+               libsqlite3-dev,
+Standards-Version: 3.9.5
+Homepage: https://github.com/ubports/sqlite-icu-extension
+
+Package: sqlite-icu-extension
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Description: ICU extension for SQLite
+ The SQLite "ICU" extension is an integration of the "International Components
+ for Unicode" library with SQLite.

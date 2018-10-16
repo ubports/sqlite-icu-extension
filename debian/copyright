@@ -1,0 +1,9 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: sqlite-icu-extension
+Source: https://github.com/ubports/sqlite-icu-extension
+
+Files: *
+Copyright: D. Richard Hipp <drh@hwaci.com>
+License: public-domain
+ The files listed have been put on the public domain by the sqlite3
+ contributors.
